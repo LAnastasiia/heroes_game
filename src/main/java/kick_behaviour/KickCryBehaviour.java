@@ -1,4 +1,4 @@
-package behaviour;
+package kick_behaviour;
 
 import game_characters.GameCharacter;
 

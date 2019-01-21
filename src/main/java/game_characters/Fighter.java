@@ -1,7 +1,7 @@
 package game_characters;
-import behaviour.KickRandomlyBehaviour;
-import config.Config;
 
+import config.Config;
+import kick_behaviour.KickRandomlyBehaviour;
 
 public abstract class Fighter extends GameCharacter {     // random power, hp in range(5, 15) + random kick
 

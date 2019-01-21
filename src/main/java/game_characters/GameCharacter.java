@@ -1,7 +1,7 @@
 package game_characters;
 
 
-import behaviour.KickBehaviour;
+import kick_behaviour.KickBehaviour;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

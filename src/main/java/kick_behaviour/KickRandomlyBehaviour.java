@@ -1,8 +1,9 @@
-package behaviour;
+package kick_behaviour;
 import config.Config;
 import game_characters.GameCharacter;
+import kick_behaviour.KickBehaviour;
 
-public class KickRandomlyBehaviour implements KickBehaviour{
+public class KickRandomlyBehaviour implements KickBehaviour {
     public void kick(GameCharacter another_gc) {
 
     }
