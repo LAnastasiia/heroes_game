@@ -1,11 +1,11 @@
 package game_characters;
 
-import behaviour.CryBehaviour;
+import behaviour.KickCryBehaviour;
 
 public class Hobbit extends GameCharacter{
 
     public Hobbit(){
-        super(0, 3, new CryBehaviour());
+        super(0, 3, new KickCryBehaviour());  // can't fight -- cry, hp=3 (default)
     }
 
     public void kick(){

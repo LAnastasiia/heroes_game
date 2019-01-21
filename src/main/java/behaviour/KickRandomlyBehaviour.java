@@ -2,7 +2,7 @@ package behaviour;
 import config.Config;
 import game_characters.GameCharacter;
 
-public class RandomKick implements KickBehaviour{
+public class KickRandomlyBehaviour implements KickBehaviour{
     public void kick(GameCharacter another_gc) {
 
     }

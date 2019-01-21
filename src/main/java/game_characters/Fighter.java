@@ -1,17 +1,12 @@
 package game_characters;
-import behaviour.RandomKick;
+import behaviour.KickRandomlyBehaviour;
 import config.Config;
-import java.util.Random;
 
 
-public abstract class Fighter extends GameCharacter {
+public abstract class Fighter extends GameCharacter {     // random power, hp in range(5, 15) + random kick
 
     public Fighter(int min, int max) {
-        super(Config.generateRandom(min, max), Config.generateRandom(min, max), new RandomKick());
+        super(Config.generateRandom(min, max), Config.generateRandom(min, max), new KickRandomlyBehaviour());
     }
 
-    public void kick(GameCharacter another_gc) {
-        int kickPower = Config.generateRandom(0, this.getPower());
-        another_gc.setHp(another_gc.getHp() - kickPower);
-    }
 }
