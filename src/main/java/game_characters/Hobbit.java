@@ -6,6 +6,7 @@ public class Hobbit extends GameCharacter {
 
     public Hobbit(){
         super(0, 3, new KickCryBehaviour());  // can't fight -- cry, hp=3 (default)
+        setName("Hobbit");
     }
 
     public void kick(){
